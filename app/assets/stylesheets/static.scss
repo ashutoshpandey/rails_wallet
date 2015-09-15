@@ -1,3 +1,22 @@
 // Place all the styles related to the Static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.menu{
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 10px;
+  min-width: 300px;
+  width: 30%;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu ul li{
+  display: inline;
+  margin-right: 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: blue;
+}

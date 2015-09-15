@@ -4,7 +4,7 @@ class AccountController < ApplicationController
 
     @email = params[:email]
 
-    @existing_user = User.find_by_email(email)
+    @existing_user = User.find_by_email(@email)
 
     if @existing_user
       render :json => {:message => 'duplicate'}
@@ -14,6 +14,7 @@ class AccountController < ApplicationController
       @user.email = params[:email]
       @user.name = params[:name]
       @user.gender = params[:gender]
+      @user.status = 'active';
 
       @user.save
 
@@ -53,7 +54,8 @@ class AccountController < ApplicationController
     @user = User.find(user_id)
 
     if @user
-      @user.delete
+      @user.status = 'removed';
+      @user.save
 
       render :json => {:message => 'done'}
     else

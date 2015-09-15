@@ -1,2 +1,31 @@
 <h1>Static#register</h1>
-<p>Find me in app/views/static/register.html.erb</p>
+
+<form id="form-create-user">
+
+  Email<br/>
+  <input type="email" name="email"/>
+
+  <br/><br/>
+
+  Name<br/>
+  <input type="text" name="name"/>
+
+  <br/><br/>
+
+  Password<br/>
+  <input type="password" name="password"/>
+
+  <br/><br/>
+  Confirm Password<br/>
+  <input type="password" name="confirm_password"/>
+
+  <br/><br/>
+  Gender<br/>
+  <label><input type="radio" name="gender" value="Male" checked="checked"/> Male</label>
+  <label><input type="radio" name="gender" value="Female"/> Female</label>
+
+  <br/><br/>
+  <input type="button" name="btn-register" value=" Create User "/> &nbsp; <span class="message"></span>
+
+  <br/><br/>
+</form>
