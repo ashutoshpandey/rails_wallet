@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   root 'static#home'
 
+  get '/mail' => 'static#mail'
+
   get '/login' => 'static#login'
   post '/do-login' => 'authenticate#do_login'
 

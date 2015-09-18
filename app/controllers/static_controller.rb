@@ -14,4 +14,13 @@ class StaticController < ApplicationController
   def home
     @title = "Welcome to your online wallet"
   end
+
+  def mail
+
+    id = 1
+
+    MandrillMailer.welcome(id).deliver_now
+
+    render :json => {:message => "done"}
+  end
 end
