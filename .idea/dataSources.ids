@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails railtest: default" uuid="3fb0c7f1-10ea-4301-85bb-665950bcc524">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails railtest: development" uuid="4954d04d-019a-41b0-81ae-90902ab59a53">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails railtest: test" uuid="829e2a08-4971-4d77-a89c-17b98eb0ea93">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails railtest: production" uuid="9590db85-2dce-4cf0-b697-abd52b6ce80c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

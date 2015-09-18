@@ -10,4 +10,8 @@ class StaticController < ApplicationController
 
   def contact_us
   end
+
+  def home
+    @title = "Welcome to your online wallet"
+  end
 end

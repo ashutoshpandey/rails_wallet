@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'pages/home'
+
+  get 'pages/contact'
+
+  get 'pages/about'
+
   root 'static#home'
 
   get '/login' => 'static#login'
